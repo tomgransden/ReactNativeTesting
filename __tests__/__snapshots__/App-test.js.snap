@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders form values correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        Sample formik app
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Username"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Username"
+        underlineColorAndroid="transparent"
+        value="MockUsername"
+      />
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Password"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Password"
+        underlineColorAndroid="transparent"
+        value="MockPassword"
+      />
+      <Button
+        style={
+          Object {
+            "marginTop": 12,
+          }
+        }
+        testID="Submit"
+        title="Submit"
+      />
+    </SafeAreaView>
+  </View>
+</View>
+`;
+
+exports[`App Renders out errors correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        Sample formik app
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Username"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Username"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Password"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Password"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="ErrorContainer"
+      >
+        <Text>
+          Mock email error message
+        </Text>
+      </View>
+      <Button
+        style={
+          Object {
+            "marginTop": 12,
+          }
+        }
+        testID="Submit"
+        title="Submit"
+      />
+    </SafeAreaView>
+  </View>
+</View>
+`;
+
+exports[`App Shows the success text when the form is submitted correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="Sucesss"
+      >
+        Success
+      </Text>
+    </SafeAreaView>
+  </View>
+</View>
+`;
+
+exports[`App renders without crashing 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+          }
+        }
+      >
+        Sample formik app
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Username"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Username"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        placeholder="Password"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "fontSize": 24,
+            "height": 56,
+            "marginTop": 12,
+          }
+        }
+        testID="Password"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <Button
+        style={
+          Object {
+            "marginTop": 12,
+          }
+        }
+        testID="Submit"
+        title="Submit"
+      />
+    </SafeAreaView>
+  </View>
+</View>
+`;
