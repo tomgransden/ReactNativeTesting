@@ -13,12 +13,14 @@ const qualifyingDay = [
 
 describe('activityHelper', () => {
   describe('doesDayMeetAwardRequirements', () => {
-    it('Throws an error when null passed in', () => {
-      expect(() => doesDayMeetAwardRequirements(null)).toThrowError();
+    it('Returns false when null passed in', () => {
+      const result = doesDayMeetAwardRequirements(null);
+      expect(result).toEqual(false);
     });
 
-    it('Throws an errorc when undefined passed in', () => {
-      expect(() => doesDayMeetAwardRequirements(undefined)).toThrowError();
+    it('Returns false when undefined passed in', () => {
+      const result = doesDayMeetAwardRequirements(undefined);
+      expect(result).toEqual(false);
     });
 
     it('Returns false when string passed in', () => {

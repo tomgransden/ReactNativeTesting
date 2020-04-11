@@ -5,7 +5,7 @@
  */
 export const doesDayMeetAwardRequirements = dayActivities => {
   if (!dayActivities) {
-    throw new Error('Help me');
+    return false;
   }
 
   if (!Array.isArray(dayActivities)) {
@@ -16,9 +16,9 @@ export const doesDayMeetAwardRequirements = dayActivities => {
     return false;
   }
 
-  const qualifyingActivities = dayActivities.filter(
+  const qualifyingActivities = dayActivities.find(
     activity => activity.duration > 5,
   );
 
-  return qualifyingActivities.length > 0;
+  return qualifyingActivities ? true : false;
 };
